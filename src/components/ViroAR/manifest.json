@@ -1,0 +1,18 @@
+{
+  "displayName": "ViroAR",
+  "defaultWidth": 350,
+  "defaultHeight": 400,
+  "resizeX": true,
+  "resizeY": true,
+  "components": "./index.js",
+  "icon": "./example-thumbnail.png",
+  "props": [
+    {
+      "name": "apiKey",
+      "displayName": "Google Maps API Key",
+      "type": "text",
+      "global": true,
+      "helpText": "Get your API Key [here](https://help.adalo.com/component-basics/marketplace-components/maps#1-setup-your-google-api-key)"
+    }
+  ]
+}
